@@ -33,6 +33,29 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
+}
+
+.memeMetrics span {
+  position: absolute;
+    width: 100%;
+    margin-top: 86%;
+    font-size: 63px;
+    color: white;
+    text-shadow: 2px 0 rgb(0, 0, 0), -2px 0 rgb(0, 0, 0), 0 2px rgb(0, 0, 0), 0 -2px rgb(0, 0, 0),
+    1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0), 1px 1px rgb(0, 0, 0);
+    left: 0px;
+}
+
+.memeMetrics span:nth-child(1) {
+  margin-top: 6%;
+}
+
+.memeMetrics img{
+  width: 100%;
+}
+
+body, .memeMetrics {
+  background: black;
 }
